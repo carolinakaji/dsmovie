@@ -1,0 +1,8 @@
+package com.devsuperior.dsmovie.entities;
+
+public class Score {
+
+	// Para chave composta, no Java, é necessário instanciar o objeto
+	private ScorePK id = new ScorePK();
+	private Double value;
+}
